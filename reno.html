@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Menu Makanan</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+     <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url(https://png.pngtree.com/background/20220716/original/pngtree-cartoon-food-feast-promotion-advertising-background-picture-image_1633768.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      margin: 0;
+      padding: 20px;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .card {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      width: 200px;
+      overflow: hidden;
+      text-align: center;
+      padding: 10px;
+    }
+    .card img {
+      width: 100%;
+      height: 120px;
+      object-fit: cover;
+    }
+    .card h3 {
+      margin: 10px 0 5px;
+    }
+    .card p {
+      color: #555;
+      font-size: 14px;
+    }
+    .card .price {
+      font-weight: bold;
+      margin: 10px 0;
+    }
+    .card button {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .card button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+<<h1 class="text-center text-4xl mb-8 animate__animated animate__fadeInDown gradient-text">
+  🍽️ Menu Makanan Spesial 🍜
+</h1>
+
+
+<div class="container">
+  <div class="card">
+    <img src="https://cdn.idntimes.com/content-images/post/20190911/zonamakanan-38751216-303781943532956-5218018281159393280-n-0e2f996b936d2f23b39dcfeac0406959.jpg" alt="Ayam Geprek">
+    <h3>Mie Godog</h3>
+    <p>Mie Godog Best seller</p>
+    <div class="price">Rp 20.000</div>
+   <button onclick="window.location.href='pesan.html'">Beli</button>
+  </div>
+  <div class="card">
+    <img src="https://www.dapurkobe.co.id/wp-content/uploads/mie-goreng-korea.jpg" alt="Mie Goreng">
+    <h3>Mie Goreng</h3>
+    <p>Rasa yang gurih dan lezat</p>
+    <div class="price">Rp 20.000</div>
+    <button onclick="window.location.href='pesan.html'">Beli</button>
+  </div>
+  <div class="card">
+    <img src="https://statik.tempo.co/data/2023/04/03/id_1194144/1194144_720.jpg" alt="Kwetaiu">
+    <h3>Kwetiau</h3>
+    <p>Gurih dan asin di santap dengan kerupuk</p>
+    <div class="price">Rp 20.000</div>
+    <button onclick="window.location.href='pesan.html'">Beli</button>
+  </div>
+  <div class="card">
+    <img src="https://statik.tempo.co/data/2023/04/03/id_1194144/1194144_720.jpg" alt="Kwetaiu">
+    <h3>Nasi goreng</h3>
+    <p>Nasi goreng Khas rumahan dgn rempah pilihan</p>
+    <div class="price">Rp 20.000</div>
+    <button onclick="window.location.href='pesan.html'">Beli</button>
+  </div>
+</div>
+
+</body>
+</html>
